@@ -1,0 +1,109 @@
+Dependencies for Project 'Hypnos_Code', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\system_init.c)(0x60043AAF)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32L431xx -D_RTE_-o .\objects\system_init.o --omf_browse .\objects\system_init.crf --depend .\objects\system_init.d)
+I (COMMON.h)(0x600439EB)
+I (D:\Keil\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l431xx.h)(0x5F732650)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F3392)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E9122)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F3392)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E836932)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F3392)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F3392)
+I (D:\Keil\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5F732650)
+I (system_init.h)(0x60043C27)
+I (GPIO.h)(0x60043C27)
+I (I2C.h)(0x60043C27)
+I (USART.h)(0x60043C27)
+I (BIO_Init.h)(0x60043C27)
+F (.\system_init.h)(0x60043C27)()
+F (.\GPIO.c)(0x60043C4A)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32L431xx -D_RTE_-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (COMMON.h)(0x600439EB)
+I (D:\Keil\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l431xx.h)(0x5F732650)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F3392)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E9122)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F3392)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E836932)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F3392)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F3392)
+I (D:\Keil\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5F732650)
+I (system_init.h)(0x60043C27)
+I (GPIO.h)(0x60043C27)
+I (I2C.h)(0x60043C27)
+I (USART.h)(0x60043C27)
+I (BIO_Init.h)(0x60043C27)
+F (.\GPIO.h)(0x60043C27)()
+F (.\I2C.c)(0x600434EA)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32L431xx -D_RTE_-o .\objects\i2c.o --omf_browse .\objects\i2c.crf --depend .\objects\i2c.d)
+I (COMMON.h)(0x600439EB)
+I (D:\Keil\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l431xx.h)(0x5F732650)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F3392)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E9122)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F3392)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E836932)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F3392)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F3392)
+I (D:\Keil\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5F732650)
+I (system_init.h)(0x60043C27)
+I (GPIO.h)(0x60043C27)
+I (I2C.h)(0x60043C27)
+I (USART.h)(0x60043C27)
+I (BIO_Init.h)(0x60043C27)
+F (.\I2C.h)(0x60043C27)()
+F (.\USART.c)(0x600445EB)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32L431xx -D_RTE_-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (COMMON.h)(0x600439EB)
+I (D:\Keil\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l431xx.h)(0x5F732650)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F3392)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E9122)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F3392)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E836932)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F3392)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F3392)
+I (D:\Keil\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5F732650)
+I (system_init.h)(0x60043C27)
+I (GPIO.h)(0x60043C27)
+I (I2C.h)(0x60043C27)
+I (USART.h)(0x60043C27)
+I (BIO_Init.h)(0x60043C27)
+F (.\USART.h)(0x60043C27)()
+F (.\BIO_Init.c)(0x600449EC)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32L431xx -D_RTE_-o .\objects\bio_init.o --omf_browse .\objects\bio_init.crf --depend .\objects\bio_init.d)
+I (COMMON.h)(0x600439EB)
+I (D:\Keil\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l431xx.h)(0x5F732650)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F3392)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E9122)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F3392)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E836932)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F3392)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F3392)
+I (D:\Keil\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5F732650)
+I (system_init.h)(0x60043C27)
+I (GPIO.h)(0x60043C27)
+I (I2C.h)(0x60043C27)
+I (USART.h)(0x60043C27)
+I (BIO_Init.h)(0x60043C27)
+F (.\BIO_Init.h)(0x60043C27)()
+F (.\Hypnos_Code.c)(0x60044B6F)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32L431xx -D_RTE_-o .\objects\hypnos_code.o --omf_browse .\objects\hypnos_code.crf --depend .\objects\hypnos_code.d)
+I (COMMON.h)(0x600439EB)
+I (D:\Keil\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l431xx.h)(0x5F732650)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F3392)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E9122)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F3392)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E836932)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F3392)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F3392)
+I (D:\Keil\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5F732650)
+I (system_init.h)(0x60043C27)
+I (GPIO.h)(0x60043C27)
+I (I2C.h)(0x60043C27)
+I (USART.h)(0x60043C27)
+I (BIO_Init.h)(0x60043C27)
+F (.\COMMON.h)(0x600439EB)()
+F (RTE\Device\STM32L431CBUx\startup_stm32l431xx.s)(0x5FFB465B)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-ID:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include--pd "__UVISION_VERSION SETA 533" --pd "_RTE_ SETA 1" --pd "STM32L431xx SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_stm32l431xx.lst --xref -o .\objects\startup_stm32l431xx.o --depend .\objects\startup_stm32l431xx.d)
+F (RTE\Device\STM32L431CBUx\system_stm32l4xx.c)(0x5FFB465B)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Keil\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32L431xx -D_RTE_-o .\objects\system_stm32l4xx.o --omf_browse .\objects\system_stm32l4xx.crf --depend .\objects\system_stm32l4xx.d)
+I (D:\Keil\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x5F732650)
+I (D:\Keil\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l431xx.h)(0x5F732650)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F3392)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E9122)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F3392)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E836932)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F3392)
+I (D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F3392)
+I (D:\Keil\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5F732650)
