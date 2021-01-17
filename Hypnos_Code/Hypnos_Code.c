@@ -16,13 +16,12 @@ int main(void)	//main
 	GPIO_init();
 	USART_init();
 	
+	USART_write(1);
+	USART_write(2);
+	USART_write(3);
 	
 	while(1)	//endless loop
 	{
-		USART_write('h');
-		USART_write('e');
-		USART_write('l');
-		USART_write('l');
-		USART_write('o');	
+
 	}
 }
