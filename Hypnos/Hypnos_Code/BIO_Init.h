@@ -9,7 +9,7 @@ Datum: 17.01.2021
 #define __BIO_Init__
 
 //--- FUNCTION HEADERS -------------------$
-unsigned int BIO_read(void);
+void BIO_read(unsigned char *wByte);
 void BIO_init(void);
 //--- FUNCTION HEADERS -------------------$
 

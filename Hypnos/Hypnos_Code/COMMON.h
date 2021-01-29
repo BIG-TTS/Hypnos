@@ -8,6 +8,7 @@ Datum: 17.01.2021
 #define __COMMON
 //--- INCLUDES -----------------------$
 #include <stm32l431xx.h>
+#include <stdlib.h>
 #include "system_init.h"
 #include "GPIO.h"
 #include "I2C.h"
@@ -22,5 +23,6 @@ Datum: 17.01.2021
 //--- MACROS -------------------------$
 
 //--- MACROS -------------------------$
+
 
 #endif
