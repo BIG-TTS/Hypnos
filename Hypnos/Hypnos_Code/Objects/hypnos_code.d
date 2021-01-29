@@ -8,6 +8,7 @@
 .\objects\hypnos_code.o: D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
 .\objects\hypnos_code.o: D:\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h
 .\objects\hypnos_code.o: D:\Keil\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h
+.\objects\hypnos_code.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\hypnos_code.o: system_init.h
 .\objects\hypnos_code.o: GPIO.h
 .\objects\hypnos_code.o: I2C.h
