@@ -1,0 +1,3 @@
+﻿  USART_CFG.c
+c:\users\marco rouge\desktop\hypnos_code_pc\hypnos_code_pc\hypnos_code_pc\usart_cfg.c(130): warning C4013: "_getch" undefiniert; Annahme: extern mit Rückgabetyp int
+  Hypnos_Code_PC.vcxproj -> C:\Users\Marco Rouge\Desktop\Hypnos_Code_PC\Hypnos_Code_PC\Debug\Hypnos_Code_PC.exe
