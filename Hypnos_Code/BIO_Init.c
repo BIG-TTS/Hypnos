@@ -1,35 +1,12 @@
 /*-----------------------------------
 Author: Marco Rouge / Andrin Kälin
 Arbeit: Hypnos
-Thema: Bio Sensor test file
-Datum: 14.11.2020
+Thema: Header for Biosensor configuration
+Datum: 17.01.2021
 -------------------------------------*/
 
-#include <stm32l431xx.h>
-#include "system_init.h"
-#include "GPIO.h"
-#include "I2C.h"
-
-#define BIO_slv_add	0x62
-
-unsigned int BIO_read(void);
-void BIO_init(void);
-
-int main(void)	//main
-{
-	system_clock_init();	//Initiliaze RCC and clocks
-	GPIO_init();	//Initialiazes GPIOs
-	I2C_init();	//Initialiaze I2C2
-	
-	set_LDO_EN;	//Enable Bio Sensor
-	
-	BIO_init();	//Initialize Bio Sensor
-	
-	while(1)	//endless loop
-	{
-		BIO_read();	//Read Bio Sensor
-	}
-}
+#include "COMMON.h"
+#include "BIO_Init.h"
 
 unsigned int BIO_read(void)
 {
@@ -47,6 +24,8 @@ unsigned int BIO_read(void)
 }
 void BIO_init(void)
 {
+	set_LDO_EN;
+	
 	//--- RESET FOR INITIALISATION---------------------------------
 	I2C_start_com(2,BIO_slv_add,0);	//Start I2C communication
 	I2C_write(0x0D);					
@@ -62,17 +41,17 @@ void BIO_init(void)
 	I2C_stop_com();		//WRITE SHDN to Register 0x0D to shut down the Sensor for changing the Register values 
 		
 	//--- CLEAR INTERRUPTS-----------------------------------------		
-	I2C_start_com(1,BIO_slv_add,0);
-	I2C_write(0x00);
-	I2C_start_com(0,BIO_slv_add,1);
-	I2C_read();
-	I2C_stop_com(); //READ STATUS 1 to clear all interrupts 
-		
-	I2C_start_com(1,BIO_slv_add,0);
-	I2C_write(0x01);
-	I2C_start_com(0,BIO_slv_add,1);
-	I2C_read();
-	I2C_stop_com(); //READ STATUS 2 to clear all interrupts 
+//	I2C_start_com(1,BIO_slv_add,0);
+//	I2C_write(0x00);
+//	I2C_start_com(1,BIO_slv_add,1);
+//	I2C_read();
+//	I2C_stop_com(); //READ STATUS 1 to clear all interrupts 
+//		
+//	I2C_start_com(1,BIO_slv_add,0);
+//	I2C_write(0x01);
+//	I2C_start_com(1,BIO_slv_add,1);
+//	I2C_read();
+//	I2C_stop_com(); //READ STATUS 2 to clear all interrupts 
 		
 	//--- AFE SETTING----------------------------------------------		
 	I2C_start_com(2,BIO_slv_add,0);
@@ -142,12 +121,12 @@ void BIO_init(void)
 	I2C_stop_com();
 		
 	//--- LED Sequence Register ---------------------------
-	I2C_start_com(7,BIO_slv_add,0);	//Start I2C2 communication
+	I2C_start_com(2,BIO_slv_add,0);	//Start I2C2 communication
 	I2C_write(0x20);					
 	I2C_write(0x21);
 	I2C_stop_com();			//LEDC1[3:0] for LED1 and LEDC2[7:4] for LED2
 	
-	I2C_start_com(7,BIO_slv_add,0);	//Start I2C2 communication
+	I2C_start_com(2,BIO_slv_add,0);	//Start I2C2 communication
 	I2C_write(0x21);
 	I2C_write(0x93); 		 
 	I2C_stop_com(); 		//LEDC3[3:0] for LED3 and LEDC4[7:4] for DIRECT AMBIENT

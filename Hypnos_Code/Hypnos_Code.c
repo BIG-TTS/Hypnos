@@ -5,23 +5,45 @@ Thema: Main File
 Datum: 14.11.2020
 -------------------------------------*/
 
-#include <stm32l431xx.h>
-#include "system_init.h"
-#include "GPIO.h"
-#include "USART.h"
+#include "COMMON.h"
 
 int main(void)	//main
 {	
+	//---Initialisation-------------------------------$
 	system_clock_init();	//Initiliaze RCC and clocks
 	GPIO_init();
+	I2C_init();
 	USART_init();
+	BIO_init();
+	//------------------------------------------------$
 	
-	USART_write(1);
-	USART_write(2);
-	USART_write(3);
-	
+	//--- Variables-----------------------------------$
+	unsigned int Data = 0;
+	unsigned int i = 0;
+	unsigned char wByte[3] ;
+	//------------------------------------------------$
+//		USART_write('H');
+//		USART_write('e');
+//		USART_write('l');
+//		USART_write('l');
+//		USART_write('o');	
+////	
+		
+		
 	while(1)	//endless loop
 	{
+//		BIO_read(wByte);
+//	Data = 4147894;
+//	wByte = &((char)Data);
+//		for(i=0; i<3 ; i++)
+//			{
+//				USART_write(*(wByte+i));
+//			}
 
+		USART_write(0x54);
+		USART_write(0x77);
+		USART_write(0x98);
 	}
 }
+
+

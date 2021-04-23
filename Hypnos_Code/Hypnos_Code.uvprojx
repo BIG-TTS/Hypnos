@@ -10,7 +10,8 @@
       <TargetName>Target 1</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>5060422::V5.06 update 4 (build 422)::ARMCC</pCCUsed>
+      <pCCUsed>5060960::V5.06 update 7 (build 960)::.\ARMCC</pCCUsed>
+      <uAC6>0</uAC6>
       <TargetOption>
         <TargetCommonOption>
           <Device>STM32L431CBUx</Device>
@@ -183,6 +184,8 @@
             <hadXRAM>0</hadXRAM>
             <uocXRam>0</uocXRam>
             <RvdsVP>2</RvdsVP>
+            <RvdsMve>0</RvdsMve>
+            <RvdsCdeCp>0</RvdsCdeCp>
             <hadIRAM2>1</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
@@ -323,6 +326,7 @@
             <uThumb>0</uThumb>
             <uSurpInc>0</uSurpInc>
             <uC99>1</uC99>
+            <uGnu>0</uGnu>
             <useXO>0</useXO>
             <v6Lang>1</v6Lang>
             <v6LangP>1</v6LangP>
@@ -348,7 +352,7 @@
             <NoWarn>0</NoWarn>
             <uSurpInc>0</uSurpInc>
             <useXO>0</useXO>
-            <uClangAs>0</uClangAs>
+            <ClangAsOpt>4</ClangAsOpt>
             <VariousControls>
               <MiscControls></MiscControls>
               <Define></Define>
@@ -380,9 +384,19 @@
           <GroupName>Source Group 1</GroupName>
           <Files>
             <File>
+              <FileName>system_init.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\system_init.c</FilePath>
+            </File>
+            <File>
               <FileName>system_init.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\system_init.h</FilePath>
+            </File>
+            <File>
+              <FileName>GPIO.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\GPIO.c</FilePath>
             </File>
             <File>
               <FileName>GPIO.h</FileName>
@@ -390,9 +404,19 @@
               <FilePath>.\GPIO.h</FilePath>
             </File>
             <File>
+              <FileName>I2C.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\I2C.c</FilePath>
+            </File>
+            <File>
               <FileName>I2C.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\I2C.h</FilePath>
+            </File>
+            <File>
+              <FileName>USART.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\USART.c</FilePath>
             </File>
             <File>
               <FileName>USART.h</FileName>
@@ -400,9 +424,24 @@
               <FilePath>.\USART.h</FilePath>
             </File>
             <File>
+              <FileName>BIO_Init.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\BIO_Init.c</FilePath>
+            </File>
+            <File>
+              <FileName>BIO_Init.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\BIO_Init.h</FilePath>
+            </File>
+            <File>
               <FileName>Hypnos_Code.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Hypnos_Code.c</FilePath>
+            </File>
+            <File>
+              <FileName>COMMON.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\COMMON.h</FilePath>
             </File>
           </Files>
         </Group>
