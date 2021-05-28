@@ -1,0 +1,12 @@
+.\objects\bio_sens_test.o: BIO_Sens_test.c
+.\objects\bio_sens_test.o: C:\Keil_v5\ARM\PACK\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l431xx.h
+.\objects\bio_sens_test.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h
+.\objects\bio_sens_test.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\bio_sens_test.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\bio_sens_test.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\bio_sens_test.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\bio_sens_test.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h
+.\objects\bio_sens_test.o: C:\Keil_v5\ARM\PACK\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h
+.\objects\bio_sens_test.o: system_init.h
+.\objects\bio_sens_test.o: GPIO.h
+.\objects\bio_sens_test.o: I2C.h
