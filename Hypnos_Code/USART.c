@@ -1,11 +1,5 @@
-/*-----------------------------------
-Author: Marco Rouge / Andrin Kälin
-Arbeit: Hypnos
-Thema: Header file for USART
-Datum: 14.11.2020
--------------------------------------*/
-#include "COMMON.h"
 
+#include "common.h"
 
 void USART_init(void)	//Initialization of USART1
 {
@@ -19,12 +13,12 @@ void USART_init(void)	//Initialization of USART1
 	USART1 ->CR1 |= USART_CR1_TE;	//Enable Transmission
 	USART1 ->CR1 |= USART_CR1_RE;	//Enable Reception	
 }
-void USART_write(unsigned char usart_tx_data)	//Send data via USART1
+void USART_write(uint8_t usart_tx_data)	//Send data via USART1
 {
 	while(!(USART1->ISR & USART_ISR_TXE)); //Wait until TX line is free
 	USART1 ->TDR = usart_tx_data;	//write new data into TX line
 }
-unsigned char USART_read(void)	//Receive data via USART2
+uint8_t USART_read(void)	//Receive data via USART2
 {
 	unsigned char usart_rx_data = 0;	//data buffer	
 	while(!(USART1->ISR & USART_ISR_RXNE))	//wait until new data arrived
