@@ -1,0 +1,16 @@
+.\objects\bio.o: BIO.c
+.\objects\bio.o: common.h
+.\objects\bio.o: C:\Users\Public\Applications\Keil\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l431xx.h
+.\objects\bio.o: C:\Users\Public\Applications\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h
+.\objects\bio.o: C:\Users\Public\Applications\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\bio.o: C:\Users\Public\Applications\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\bio.o: C:\Users\Public\Applications\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\bio.o: C:\Users\Public\Applications\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\bio.o: C:\Users\Public\Applications\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h
+.\objects\bio.o: C:\Users\Public\Applications\Keil\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h
+.\objects\bio.o: system_init.h
+.\objects\bio.o: I2C.h
+.\objects\bio.o: common.h
+.\objects\bio.o: GPIO.h
+.\objects\bio.o: BIO.h
+.\objects\bio.o: USART.h

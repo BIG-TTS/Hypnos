@@ -1,19 +1,13 @@
-#include "COMMON.h"
-#include "I2C.h"
 
-/*------------------------------------
-Author: Marco Rouge / Andrin Kälin
-Arbeit: Hypnos
-Thema: Header file for I2C2
-Datum: 14.11.2020
--------------------------------------*/
+
+#include "common.h"
 
 void I2C_stop_com(void)	//Stop I2C2 communication
 {
 	while(!(I2C2 ->ISR & I2C_ISR_TC));	//Wait until last byte has been read/transfered (TC = 1)
 	I2C2 ->CR2 |= I2C_CR2_STOP;	//Send stop condition
 }
-unsigned char I2C_read(void)	//Read data on I2C2 line
+uint8_t I2C_read(void)	//Read data on I2C2 line
 {
 	unsigned char I2C_rx_data;	//data buffer
 	while(!(I2C2 ->ISR & I2C_ISR_RXNE));	//wait until new data arrived

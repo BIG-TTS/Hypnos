@@ -1,11 +1,5 @@
-#include "COMMON.h"
 
-/*-----------------------------------
-Author: Marco Rouge / Andrin Kälin
-Arbeit: Hypnos
-Thema: Header fiel for system startup
-Datum: 14.11.2020
--------------------------------------*/
+#include "common.h"
 
 void system_clock_init(void)	//Initialization of RCC and clocks
 {

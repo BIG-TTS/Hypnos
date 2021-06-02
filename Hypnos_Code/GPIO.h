@@ -5,14 +5,9 @@ Thema: Header for GPIO configuration
 Datum: 14.11.2020
 -------------------------------------*/
 
-#ifndef __GPIO__
-#define __GPIO__
+#ifndef GPIO__H
+#define GPIO__H
 
-//--- FUNCTION HEADERS ----------------------------$
-void GPIO_init(void);
-//--- FUNCTION HEADERS ----------------------------$
-
-//--- DEFINES -------------------------------------$
 //Set GPIO pins high
 #define set_LDO_EN							GPIOA ->BSRR |= GPIO_BSRR_BS5
 #define set_motor_ctrl					GPIOA ->BSRR |= GPIO_BSRR_BS8
@@ -33,6 +28,7 @@ void GPIO_init(void);
 
 #define set_tst							GPIOA ->BSRR |= GPIO_BSRR_BS3
 #define reset_tst						GPIOA ->BSRR |= GPIO_BSRR_BR3
-//--- DEFINES -------------------------------------$
+
+void GPIO_init(void);
 
 #endif

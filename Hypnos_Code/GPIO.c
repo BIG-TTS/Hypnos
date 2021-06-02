@@ -1,12 +1,6 @@
-#include "COMMON.h"
-#include "GPIO.h"
 
-/*-----------------------------------
-Author: Marco Rouge / Andrin Kälin
-Arbeit: Hypnos
-Thema: Header for GPIO configuration
-Datum: 14.11.2020
--------------------------------------*/
+
+#include "common.h"
 
 void GPIO_init(void)
 {
